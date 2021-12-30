@@ -1,0 +1,27 @@
+#add{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #2498DA;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+#items{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 54px;
+color: #757575;
+position: relative;
+width: 740px;
+height: 100px;
+}
+.container{position: absolute;
+    width: 1074px;
+    height: 136px;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(4px);
+    border-radius: 7px 7px 0px 0px;
+}
