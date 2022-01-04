@@ -1,3 +1,12 @@
+
+.container{
+    position: relative;
+    width: 1074px;
+    height: 136px;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(4px);
+    border-radius: 7px 7px 0px 0px;
+}
 #add{
     position: relative;
     width: 100px;
@@ -12,16 +21,9 @@
 font-style: normal;
 font-weight: 300;
 font-size: 36px;
-line-height: 54px;
-color: #757575;
+line-height: 62px;
+color: #272727;
 position: relative;
 width: 740px;
 height: 100px;
-}
-.container{position: absolute;
-    width: 1074px;
-    height: 136px;
-    background: rgba(255, 255, 255, 0.45);
-    backdrop-filter: blur(4px);
-    border-radius: 7px 7px 0px 0px;
 }
