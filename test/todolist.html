@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo list</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-    <input type="text" id="items" aria-label="enter your text here">
-    <button class="add" id="add"></button>
+    <input type="text" id="items"><span style="height: 24px;width: 24px;"></span>
+    <button class="add" id="add">+</button>
     </div>
-    <ul>
-        <li>
-            
-        </li>
+    <div class="container1">
+    <ul class="list" id="new-list">
+        <li class="checked">Schedule your day</li>
+        <li>complete your daily tasks</li>
+        <li>take your dog for a walk</li>
     </ul>
+    </div >
     <script src="todo.js"></script>
 </body>
 </html>
