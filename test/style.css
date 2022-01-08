@@ -6,8 +6,8 @@
     justify-content: center;
     align-content: center;
     margin:auto;
-    width: 860px;
-    height: 136px;
+    width: 400px;
+    height: 78px;
     background: rgba(223, 223, 223, 0.849);
     backdrop-filter: blur(4px);
     border-radius: 7px 7px 0px 0px;
@@ -18,13 +18,13 @@
     justify-content: center;
     align-content: center;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 42px;
+    height: 42px;
     background: #2498DA;
     font-family: monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 98px;
+    font-size: 24px;
     line-height: 67px;
     color: #fff;
     border-radius: 7px;
@@ -39,12 +39,12 @@
     font-family: monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 18px;
     line-height: 62px;
     color: #272727;
     position: relative;
-    width: 690px;
-    height: 100px;
+    width: 240px;
+    height: 42px;
     border: none;
     border-radius: 7px;
 }
@@ -63,7 +63,7 @@ ul{
 
 }
 li{
-    margin: 24px;
+    margin: 12px;
     margin-left: 0px;
     display: inline-flex;
     align-items: center;
@@ -72,15 +72,15 @@ li{
     font-family: monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 18px;
     line-height: 62px;
     color: #fff;
     position: relative;
-    width: 690px;
-    height: 100px;
+    width: 300px;
+    height: 42px;
     border: none;
     background: rgba(0, 0, 0, 0.45);
-border-radius: 7px;
+    border-radius: 7px;
 }
 .container1{
     display: flex;
@@ -89,9 +89,9 @@ border-radius: 7px;
     justify-content: center;
     align-content: center;
     margin:auto;
-    width: 860px;
+    width: 400px;
     height: auto;
-    background: linear-gradient(180deg, #bdbdbd 0%, #4d4c4c 100%);
+    background: #AEAEAE;
     backdrop-filter: blur(4px);
     border-radius: 0px 0px 7px 7px;
 }
@@ -103,16 +103,18 @@ ul li:hover {
 ul li.checked {
     background: rgba(234, 253, 14, 0.3);
     color: #EAFD0E;
-    text-decoration: line-through;
+    text-decoration: line-through 3px #7B8600;
 }
 
 ul li.checked::before {
     content: '';
     position: relative;
-    border-color: #EAFD0E;
+    border-color: #7B8600;
     border-style: solid;
-    border-width: 0 7px 7px 0;
+    border-width: 0 3px 3px 0;
     transform: rotate(45deg);
-    height: 15px;
-    width: 7px;
+    height: 12px;
+    width: 5px;
+    top:-5%;
+    margin: 0px -100px 0px -40px;
 }
